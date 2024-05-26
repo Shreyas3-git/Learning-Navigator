@@ -1,7 +1,5 @@
 package com.crio.learningnavigator.exception;
 
-import com.crio.learningnavigator.service.ErrorCode;
-
 import java.time.LocalDateTime;
 
 public class ResourceNotFoundException extends RuntimeException

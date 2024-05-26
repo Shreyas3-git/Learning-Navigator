@@ -17,4 +17,5 @@ public class ExamController {
         return ResponseEntity.ok(examService.registerStudentForExam(examId, studentId));
     }
 
+
 }

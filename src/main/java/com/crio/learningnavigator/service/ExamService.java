@@ -2,6 +2,7 @@ package com.crio.learningnavigator.service;
 
 import com.crio.learningnavigator.entity.Exam;
 import com.crio.learningnavigator.entity.Student;
+import com.crio.learningnavigator.exception.ErrorCode;
 import com.crio.learningnavigator.exception.ResourceNotFoundException;
 import com.crio.learningnavigator.repository.ExamRepository;
 import com.crio.learningnavigator.repository.StudentRepository;
