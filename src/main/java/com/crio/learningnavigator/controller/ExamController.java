@@ -16,5 +16,5 @@ public class ExamController {
     public ResponseEntity<Exam> registerStudentForExam(@PathVariable Long examId, @RequestParam Long studentId) {
         return ResponseEntity.ok(examService.registerStudentForExam(examId, studentId));
     }
-    // Define endpoints for CRUD operations on exams
+
 }
